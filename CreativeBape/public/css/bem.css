@@ -1,0 +1,370 @@
+.container {
+    margin: 0 auto;
+    max-width: 70vw;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.footer {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    padding: 20px 0;
+    line-height: 1.6;
+    background: #000;
+}
+
+.footer__socialicon, .footer__link, .footer__title {
+    color: #AE9A64;
+    padding: 3px 15px;
+    display: block;
+}
+
+.footer__sections {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.footer__section {
+    box-sizing: border-box;
+    width: 20%;
+    padding: 15px 0;
+    flex-shrink: 0;
+}
+
+.footer__social{
+    width: 17.5%;
+    text-align: center;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;
+}
+
+#footer__slogan{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#slogan{
+    width: 30%;
+}
+
+.footer__hr {
+    height: 1px;
+    border: none;
+    background: #444444;
+    max-width: 70vw;
+}
+
+.footer__title {
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    text-decoration: none;
+}
+.footer__socialicon{
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    color: #7f6f43;
+}
+
+.maps {
+    margin: 0 auto;
+    display: block;
+    border: 0;
+    width: 90vw;
+    height: 45vw;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.contact {
+    width: 75%;
+    padding-top: 10em;
+    padding-bottom: 5em;
+    margin: 0 auto;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 2em;
+    align-items: center;
+    justify-items: center;
+}
+
+.contact * {
+    width: 100%;
+}
+
+.contact__info {
+    background: #E2BBB4;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.contact__form {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(26,52,79,0) 15%, rgba(54,53,71,0) 85%, rgba(0,0,0,1) 100%);
+    border-image-slice: 1;
+
+}
+
+.contact__form__title {
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 0;
+    width: 50%;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.contact__submit {
+    float: right;
+    margin-right: 15%;
+    width: 30%;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    background: #BA3A2A;
+    outline: none;
+    color: white;
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bolder;
+}
+
+.contact__input {
+    width: 70%;
+    padding: .4em;
+    border: 0;
+    background: #d9d9d9;
+    color: black;
+    outline: none;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-bottom: .7em;
+}
+
+.contact__input__field {
+    max-width: 70%;
+    padding: .4em;
+    border: 0;
+    background: #d9d9d9;
+    color: black;
+    outline: none;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-bottom: .7em;
+    min-width: 70%;
+    min-height: 60px;
+    height: 100px;
+    max-height: 100px;
+}
+
+.contact__title {
+    color: #BA3A2A;
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.contact__box {
+    width: calc(70% - 20px);
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.contact__text {
+    color: #BA3A2A;
+    text-align: left;
+    width: 45%;
+    float: right;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.contact__img {
+    float: left;
+    width: 45%;
+    padding-top: 5%;
+    height: 80%;
+    object-position: 35px;
+}
+
+.wij {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(26,52,79,0) 15%, rgba(54,53,71,0) 85%, rgba(0,0,0,1) 100%);
+    border-image-slice: 1; 
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.wij__persoon {
+    width: 100%;
+    margin: 0 auto;
+    background: #d9d9d9;
+    outline: none;
+    margin: 70px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.wij__naam {
+     width: 50%;
+     float: right;
+     margin: 0;
+     margin-right: 5%;
+     margin-top: 100px;
+     font-size: 30px;
+     
+}
+.wij__tekst {
+    width: 50%;
+    float: right;
+    margin: 0;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+.wij__img {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.dienst {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.diensten {
+    outline: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.dienst__title {
+    text-align: center;
+    width: 70%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0 auto;
+}
+
+.dienst__img {
+    width: 40%;
+    height: 400px;
+    float: right;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dienst__naam {
+    width: 50%;
+    margin-left: 5%;
+    float: left;   
+}
+.dienst__tekst {
+    width: 50%;
+    margin-left: 5%;
+    float: left;     
+}
+
+@media screen and (max-width: 768px) {
+    .footer__section {
+        width: 50%;
+    }
+    #slogan{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer__section {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .contact {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        width: 90%;
+    }
+    .maps {
+        height: 70vw;
+    }
+    .contact__img {
+        object-position: center;
+    }
+    .contact__text {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        width: 90%;
+    }
+    .maps {
+        height: 70vw;
+    }
+    .contact__img {
+        object-position: center;
+    }
+    .contact__text {
+        width: 50%;
+    }
+
+    .wij {
+        width: 95%;
+        margin: 0 auto;
+        border: 2px solid transparent;
+        border-image: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(26,52,79,0) 15%, rgba(54,53,71,0) 85%, rgba(0,0,0,1) 100%);
+        border-image-slice: 1;
+    }
+    
+    .wij__persoon {
+        width: 100%;
+        margin: 0 auto;
+        background: #d9d9d9;
+        outline: none;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    
+    .wij__naam {
+        display: block;
+        width: 90%;
+        margin-top: 50px;
+        font-size: 30px;
+         
+    }
+    .wij__tekst {
+        display: block;
+        width: 90%;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .wij__img {
+        width: 100%;
+        height: 100%;
+    }
+}

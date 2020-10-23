@@ -1,0 +1,289 @@
+.WrapperVideoBG {
+	height: calc(100vh - 70px);
+	width: 100%;
+	position: relative;
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    background: black;
+    border-bottom: 5px solid #BA3A2A;
+    margin-top: 70px;
+}
+
+#VideoBG {
+    position: absolute;
+    top: 0;
+    left: 0%;   
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.about {
+    width: 80%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: 0 auto;
+    background: white;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.about * {
+    width: 100%;
+}
+
+.about img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 500px;
+}
+
+.about .intro-txt {
+    width: 100%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+    text-align: left;
+}
+
+.about .intro-txt h2 {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: left;
+    width: 100%;
+}
+
+.about .intro-txt p {
+    font-size: 18px;
+    width: 100%;
+}
+
+.workFeed {
+    width: 75%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: 0 auto;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2em;
+    align-items: center;
+    justify-items: center;
+}
+
+.workFeed div * {
+    width: 100%;
+    transition: .4s;
+    margin: 0 auto;
+}
+
+.workFeed div {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+
+.workFeed img {
+    object-fit: cover;
+    object-position: center;
+    transition: .4s;
+    height: 300px;
+    clip-path: rect(250px, 250px, 250px, 250px);
+}
+
+.workFeed div:hover img {
+    filter: brightness(80%);
+    transform: scale(1.05);
+}
+
+.workFeed div h3 {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    z-index: 2;
+}
+
+.cta {
+    width: 100%;
+    background: #BA3A2A;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+}
+
+.cta h2 {
+    margin: 0 auto;
+    width: calc(100% - 10px);
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.cta p {
+    margin: 0 auto;
+    width: calc(100% - 10px);
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.cta .cta-btn {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    outline: none;
+    background: rgba(130, 130, 130, 0);
+    color: white;
+    border: 0;
+    transition: .4s;
+    cursor: pointer;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(26,52,79,0) 15%, rgba(54,53,71,0) 85%, rgba(255,255,255,1) 100%);
+    border-image-slice: 1;
+    padding: 1em;
+}
+
+.cta .cta-btn:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+.howWork { 
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    margin-top: 7em;
+}
+
+.howWork h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+}
+
+.howWorkWrapper {
+    width: 75%;
+    padding-top: 2em;
+    padding-bottom: 7em;
+    margin: 0 auto;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+    align-items: center;
+    justify-items: center;
+}
+
+.howWorkIcon {
+    width: 100%;
+    height: 16.5vw;
+    background: #E2BBB4;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.howWorkIcon:hover img {
+    transform: rotate(360deg);
+}
+
+.howWorkIcon h3 {
+    position: absolute;
+    bottom: -45px;
+    text-align: center;
+    width: 100%;
+    color: #707070;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.howWorkIcons {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    margin: 0;
+    padding: 0;
+    transition: .4s;
+}
+
+#muteButton {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+    border-radius: 50%;
+    outline: none;
+    background: #BA3A2A;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#muteButton:hover {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 550px) {
+    .about {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        width: 90%;
+    }
+
+    .about img {
+        height: auto;
+    }
+
+    .workFeed {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .workFeed img {
+        height: 250px;
+    }
+
+    .workFeed div {
+        height: 250px;
+    }
+
+    .WrapperVideoBG {
+        width: 100%;
+        height: 40vh;
+    }
+    .howWorkWrapper {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    .howWorkIcon {
+        height: 250px;
+        width: 250px;
+    }
+}
