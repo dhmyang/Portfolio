@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+form {
+  position: relative;
+  margin: 0 auto;
+  width: 20em;
+  text-align: center;
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 0rem 0rem .4em rgba(200, 200, 200, 1);
+}
+
+img {
+  width: 5em;
+}
+
+.box {
+  margin: 0 auto;
+  width: 100%;
+}
+
+span {
+  color: red;
+  font-size: 1.25em;
+}
+
+.submit {
+  margin-top: 1em;
+  padding: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
+  opacity: 0.6;
+  border-radius: 5em;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0;
+  background: rgba(29, 161, 242, 1);
+  transition-duration: 0.4s;
+}
+
+.submit:hover {opacity: 1; transition-duration: 0.4s;}
+
+.text {
+  margin-bottom: 1em;
+  width: 80%;
+  padding: 1em;
+  border: 0;
+  border: 0.05em solid rgba(100, 100, 100, 0.5);
+  border-radius: 2em;
+  outline: none;
+  box-shadow: 0.25rem 0.25rem .25em rgba(200, 200, 200, .5);
+}
+
+.text:hover {
+  border: 0.05em solid rgba(179, 205, 229, 1);
+  box-shadow: 0.25rem 0.25rem .25em rgba(179, 205, 229, 1);
+}
+
+.text:focus {
+  border: 0.05em solid rgba(179, 205, 229, 1);
+  box-shadow: 0.25rem 0.25rem .25em rgba(179, 205, 229, 1);
+}
+
+p {
+  margin: 0 auto;
+  width: 80%;
+  text-align: left;
+  font-weight: lighter;
+}
+
+.register {
+  display: block;
+  margin: .5em;
+  margin-top: 1em;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgba(179, 205, 229, 1);
+}
+
+.register:hover {
+  text-decoration: underline;
+}
+
+.policy {
+  text-align: center;
+  color: rgba(100, 100, 100, 0.5);
+}
+
+.fa-chevron-circle-left {
+  position: absolute;
+  left: .5em;
+  top: .5em;
+  text-decoration: none;
+  color: rgba(29, 161, 242, .5);
+  font-size: 1.5em;
+  transition-duration: 0.4s;
+}
+
+.fa-chevron-circle-left:hover {
+  color: rgba(29, 161, 242, 1);
+  transition-duration: 0.4s;
+}
+
+.exists {
+  color: red;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  form {
+    width: 80%;
+    box-shadow: none;
+    border-radius: none;
+  }
+  .box {
+    width: 90%;
+
+  }
+
+  .fa-chevron-circle-left {
+    font-size: 2.5em;
+    left: .5em;
+    top: .5em;
+  }
+
+  .submit {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 700px) {
+  form {
+    width: 50%;
+    box-shadow: none;
+    border-radius: none;
+  }
+  .box {
+    width: 70%;
+
+  }
+
+  .fa-chevron-circle-left {
+    font-size: 4em;
+    left: .5em;
+    top: .5em;
+  }
+
+  p {
+    font-size: 2em;
+  }
+
+  .submit {
+    font-size: 2em;
+  }
+
+  .text {
+    font-size: 1.5em;
+  }
+
+  img {
+    width: 10em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .register {
+    font-size: 2em;
+  }
+}

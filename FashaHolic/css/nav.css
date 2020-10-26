@@ -1,0 +1,46 @@
+.desktop {
+  position: fixed;
+  top: 2em;
+  left: 5%;
+  width: 15%;
+}
+
+.desktop a {
+  display: block;
+  margin: .5em;
+  padding: .7em;
+  border-radius: 2em;
+  width: 100%;
+  color: rgba(29, 161, 242, .5);
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.25em;
+  transition-duration: 0.4s;
+}
+
+.desktop a:hover {
+  background: rgba(29, 161, 242, 1);
+  color: white;
+  border-radius: 1.75em;
+  transition-duration: 0.4s;
+}
+
+.myProfilePicture {
+  margin-left: 1em;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.myUsername {
+  width: 100%;
+  background: rgba(29, 161, 242, .75);
+  color: white;
+  margin-top: -2.55rem;
+  padding-left: 4.5rem;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  border-radius: 2em;
+  margin-bottom: 2em;
+  font-size: 1.25em;
+}
